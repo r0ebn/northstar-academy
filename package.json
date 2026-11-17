@@ -1,0 +1,32 @@
+{
+  "name": "northstar-academy",
+  "version": "1.0.0",
+  "description": "Northstar Academy \u2014 a course completion kit (email, page, certificate PDF, share card) built with Hyper Elements. Entry for the Hyper Elements Template Challenge.",
+  "scripts": {
+    "build": "tsx scripts/build.tsx",
+    "typecheck": "tsc --noEmit",
+    "screenshots": "tsx scripts/screenshot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@hyper-elements/email-clients": "^0.4.16",
+    "@hyper-elements/react": "^0.4.6",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
